@@ -82,12 +82,6 @@ Camouflage is designed to conceal military personnel and assets by blending them
 - Robust performance under varying environmental conditions.
 - Contribution to automated defense and surveillance technologies.
 
-## 🔮 Future Work
-
-- Integrate sensor fusion and infrared vision.
-- Expand dataset diversity and realism.
-- Improve model generalizability to unseen camouflage types.
-
 ## 🤝 Acknowledgments
 
 This work is the result of interdisciplinary collaboration, combining expertise in computer vision, deep learning, and defense technology.
