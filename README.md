@@ -87,4 +87,48 @@ Camouflage is designed to conceal military personnel and assets by blending them
 This work is the result of interdisciplinary collaboration, combining expertise in computer vision, deep learning, and defense technology.
 
 
+### 📦 Recommended Datasets
+
+1. **Camouflaged Soldiers Dataset**  
+   A dataset comprising 92 images with annotations for camouflaged soldiers. It includes various augmentations like flipping, rotation, cropping, and color adjustments.  
+   🔗 [View Dataset](https://universe.roboflow.com/project-nluoo/camouflaged-soldiers)
+
+2. **Identify Camouflaged Person Dataset**  
+   Contains 100 images focusing on detecting camouflaged individuals. The dataset is split into training, validation, and test sets.  
+   🔗 [View Dataset](https://universe.roboflow.com/camouflaged/identify-camouflaged-person)
+
+3. **Soldier Identify Dataset**  
+   Features 100 images aimed at identifying soldiers, which can be beneficial for training models to detect camouflaged personnel.  
+   🔗 [View Dataset](https://universe.roboflow.com/camouflaged/soldier-identify)
+
+4. **Camouflaged Object Detection Dataset (Inha Univ)**  
+   An instance segmentation dataset focusing on camouflaged objects, providing detailed annotations suitable for advanced detection tasks.  
+   🔗 [View Dataset](https://universe.roboflow.com/inha-univ-pigj7/camouflaged-object-detection-3)
+
+5. **COD10K Dataset**  
+   A large-scale dataset containing over 10,000 images for camouflaged object detection, covering various object categories and challenging scenarios.  
+   🔗 [View Dataset](https://service.tib.eu/ldmservice/dataset/cod10k--a-large-scale-dataset-for-camouflaged-object-detection)
+
+6. **CHAMELEON Dataset**  
+   A dataset designed for camouflaged object detection, providing a diverse set of images to train and evaluate detection models.  
+   🔗 [View Dataset](https://service.tib.eu/ldmservice/dataset/chameleon--a-dataset-for-camouflaged-object-detection)
+
+---
+
+### 🧠 Additional Resources
+
+- **Awesome Camouflaged Object Detectio**  
+  A GitHub repository compiling a list of papers, codes, and datasets related to camouflaged object detection. This can be a valuable resource for exploring state-of-the-art methods and dtasets.  
+  🔗 [View Repository](https://github.com/clelouch/Awesome-Camouflaged-Object-Detection)
+
+---
+
+### 📁 Integration Suggestions
+
+To incorporate these datasets into your GitHub repository:
+
+1. **Data Dirctory**: Create a `data/` directory in your rpository.
+2. **Subdirecories**: For each dataset, create a subdirectory within `data/` (e.g., `data/camouflaged_sodiers/`).
+3. **Dataset EADME**: In each subdirectory, include a `README.md` file detailing the dataset's source, structure, and any preprocessng steps.
+4. **Data Loading Sripts**: Provide scripts to load and preprocess each dataset, ensuring compatibility with your model trainingpipeline.
 
